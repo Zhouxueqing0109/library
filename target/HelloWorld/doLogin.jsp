@@ -11,8 +11,8 @@
     Class.forName("com.mysql.cj.jdbc.Driver");
     try {
         Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/library?characterEncoding=utf-8&serverTimeZone=UTC"
-                ,"Kirito66"
-                ,"123456");
+                ,"root"
+                ,"123hhhwszxq");
         String sql = "select * from borrow_card where username = ?";
         try(PreparedStatement preparedStatement = conn.prepareStatement(sql)){
             preparedStatement.setString(1,username);

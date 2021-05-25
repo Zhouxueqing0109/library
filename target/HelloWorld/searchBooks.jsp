@@ -14,7 +14,7 @@
           content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="./layui/css/layui.css"
           media="all">
-    <!-- 注意：如果你直接复制所有代码到本地，上述css路径需要改成你本地的 -->
+
     <style>
         .wrap-div {
             display: -webkit-box;
@@ -88,7 +88,7 @@
 </div>
 
 <script src="./layui/layui.js" charset="utf-8"></script>
-<!-- 注意：如果你直接复制所有代码到本地，上述 JS 路径需要改成你本地的 -->
+
 <script>
     layui.use(['laypage', 'layer', 'element'], function () {
             var laypage = layui.laypage

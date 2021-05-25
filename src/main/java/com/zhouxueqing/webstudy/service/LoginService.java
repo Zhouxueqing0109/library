@@ -31,6 +31,8 @@ public class LoginService {
     public String adminLogin(String username, String password,
                              HttpSession session) {
         Admin admin = loginDao.selectOne(username, password);
+
+
         if (admin == null) {
             return "用户不存在";
         } else {
