@@ -2,7 +2,7 @@ package com.zhouxueqing.webstudy.servlet;
 
 import com.zhouxueqing.webstudy.bean.User;
 import com.zhouxueqing.webstudy.service.UserService;
-import com.zhouxueqing.webstudy.util.ConString;
+import com.zhouxueqing.webstudy.utils.ConString;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.MultipartConfig;
